@@ -1,0 +1,28 @@
+{
+    "name": "Megamenu/megamenu",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "j"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Megamenu\\megamenu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Megamenu\\megamenu\\Providers\\MegamenuServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

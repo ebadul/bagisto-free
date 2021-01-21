@@ -1,0 +1,28 @@
+{
+    "name": "Buynoir/Feedback",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "j"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buynoir\\Feedback\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Buynoir\\Feedback\\Providers\\FeedbackServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

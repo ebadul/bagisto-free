@@ -1,0 +1,28 @@
+{
+    "name": "CodexBD/sale-report",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "j"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexBD\\SaleReport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodexBD\\SaleReport\\Providers\\SaleReportServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "RootNext/about-us",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "j"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "RootNext\\AboutUs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RootNext\\AboutUs\\Providers\\AboutUsServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

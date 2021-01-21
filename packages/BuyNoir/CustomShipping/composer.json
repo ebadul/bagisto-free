@@ -1,0 +1,26 @@
+{
+    "name": "Buynoir/CustomShipping",
+    "license": "MIT",
+    "authors": [{
+        "name": "",
+        "email": "j"
+    }],
+    "require": {
+        "bagisto/laravel-core": "dev-master",
+        "bagisto/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buynoir\\CustomShipping\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Buynoir\\CustomShipping\\Providers\\CustomShippingServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

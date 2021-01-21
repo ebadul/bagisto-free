@@ -1,0 +1,81 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+/*** navbar top ***/
+.admin-logo-buynoir{
+    margin:0px auto;
+}
+
+.navbar a.nav-link, .navbar a.nav-link:visited{
+    color:#fff;
+}
+
+..navbar-top{
+    color:#fff;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.navbar-top-left{
+    color:#fff;
+    width:20%;
+}
+
+.navbar-top-right{
+    width:max-content;
+    margin-left:auto;
+    margin-right:0px;
+    padding:20px;
+}
+
+.nav-icon{
+    height:30px;
+    width:30px;
+    vertical-align:middle;
+}
+
+
+/***left navbar***/
+.navbar-left{
+    align-self:flex-start;
+    height:100%;
+}
+
+.search-icon{
+        background-image: url(../images/icon-search.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+/** content-body **/
+.content-container{
+    background-color: #fef8f5;
+}
+
+
+.left-card-container .card{
+    height:445px;
+}
+.right-card-container{
+    align-self:flex-start;
+    height:445px;
+}
+.right-card-container .card{
+    height:445px;
+}
